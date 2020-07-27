@@ -1,0 +1,329 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/36bf67c002.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Miriam+Libre&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://launchspace.sgp1.digitaloceanspaces.com/website/fav.png" type="image/x-icon">
+    <link rel="icon" href="https://launchspace.sgp1.digitaloceanspaces.com/website/fav.png" type="image/x-icon">
+
+    <title>Launchspace</title>
+    <style>
+        html,
+        body {
+            font-family: 'Miriam Libre', sans-serif;
+        }
+
+        .navbar-item img {
+            max-height: 3rem;
+        }
+
+        .select,
+        select {
+            width: 100%;
+        }
+
+        a {
+            color: #888888;
+        }
+
+        a:hover {
+            color: #FF2121;
+        }
+
+        .button:hover {
+            color: #FF2121;
+            border-color: #FF2121;
+        }
+
+        .has-text-accent {
+            color: #FF2121;
+        }
+
+        .button.is-red {
+            background-color: #FF2121;
+            color: white;
+        }
+
+        .button {
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        #KPIs,
+        #at-launcspace {
+            height: 350px;
+        }
+
+        #at-launcspace {
+            background-image: url('https://launchspace.sgp1.digitaloceanspaces.com/assets/images/splash.png');
+            background-size: cover;
+            background-position: center;
+        }
+
+        #hero {
+            height: 100vh;
+        }
+
+        #hero-image {
+            position: absolute;
+            top: 100px;
+            right: 0;
+            height: 600px;
+            width: 600px;
+            background-image: url('https://launchspace.sgp1.digitaloceanspaces.com/assets/images/hero.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center right;
+        }
+
+        .button {
+            color: #FF2121;
+            border-color: #FF2121;
+        }
+
+        .is-horizontal {
+            display: flex;
+            justify-content: space-between;
+            max-width: 180px;
+            margin: 0 auto;
+        }
+
+        .has-background-grey-lighter {
+            background-color: #f8f8f8 !important; 
+        }
+
+        .footer {
+            background-color: #444444;
+            color: white;
+            text-align: center;
+            padding: 8px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="hero-image" class="is-hidden-touch is-flex-desktop"></div>
+
+
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item">
+                <img src="https://sgp1.digitaloceanspaces.com/launchspace/assets/images/logo.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200512%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200512T075740Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=b596de1585d900ec8edafc81a3ad89eb2ec641f926391118d46f307f9487c38d">
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section Start -->
+    <div id="hero" class="section">
+        <div class="container ">
+            <div class="columns is-vcentered">
+                <div class="column is-4 has-text-centered-mobile">
+                    <h1 class="is-size-1">We empower the innovators of tomorrow.</h1>
+                    <p>Our platform is for institutions looking to future-proof themselves and teach their learners the
+                        skills of the future.</p>
+                    <br>
+                    <a href="#contact-us" class="button is-red">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+
+    <!-- Mini Section 1-->
+
+    <div id="at-launcspace" class="columns is-vcentered has-text-centered">
+        <div class="column">
+            <p class="is-size-2 has-text-white">At Launchspace, we believe that<br> the future belongs to those<br>
+                who create it.</p>
+        </div>
+    </div>
+
+    <!-- Mini Section 1 End -->
+
+
+    <!-- About Section Start -->
+    <div class="section is-vcentered has-text-centered">
+        <div class="container ">
+            <h1 class="is-size-2 is-size-3-mobile">We equip learners with the mindsets, learning and tools necessary to
+                build the future.
+            </h1>
+            <br>
+            <br>
+            <div class="columns is-centered">
+                <div class="column is-3">
+                    <img src="https://sgp1.digitaloceanspaces.com/launchspace/assets/images/training.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200512%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200512T075740Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=ebbc30a13ffc898d805637c2ab43b5d4461934229209e4be84740a1a268a736d">
+                    <br>
+                    <br>
+                    <h1 class="is-size-4 has-text-weight-bold">Training</h1>
+                    <br>
+                    <p>We train faculty and students in Design Thinking, Innovation and Entrepreneurship.</p>
+                    <br>
+                    <p>Reach out to us for a<span class="has-text-accent"> free expert workshop.</span></p>
+                    <br>
+                    <a href="#contact-us" class="button">SCHEDULE A SESSION</a>
+                </div>
+                <div class="column is-3">
+                    <img src="https://sgp1.digitaloceanspaces.com/launchspace/assets/images/mobile_app.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200512%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200512T075740Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=67cf6c7a737c115c48d2e9d9e06f6905ddc8f18f600ea03972fe369b0e8ad348">
+                    <br>
+                    <br>
+                    <h1 class="is-size-4 has-text-weight-bold">Mobile App</h1>
+                    <br>
+                    <p>Our mobile app gauges your entrepreneurial mindset, helps you improve, and guides you in your
+                        journey of starting-up.</p>
+                    <br>
+                    <p class="has-text-accent">Get started for free.</p>
+                    <br>
+                    <a href="#contact-us" class="button">LOGIN WITH GOOGLE</a>
+                </div>
+                <div class="column is-3">
+                    <img src="https://sgp1.digitaloceanspaces.com/launchspace/assets/images/incubator.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200512%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200512T075740Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=ef538b4a6d99bdc184af416afa2c10946dd35969259ce64a997a68ce92f3297a">
+                    <br>
+                    <br>
+                    <h1 class="is-size-4 has-text-weight-bold">Incubator</h1>
+                    <br>
+                    <p>Our Nebulab incubator enables you to create a culture of innovation & entrepreneurship on campus.
+                    </p>
+                    <br>
+                    <p><span class="has-text-accent">Custom designed</span> for you.</p>
+                    <br>
+                    <br>
+                    <!-- <a href="#contact-us" class="button">REQUEST A QUOTE</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About Section End -->
+
+    <!-- Mini Section 2-->
+
+    <div id="KPIs" class="columns is-vcentered has-text-centered has-background-grey-lighter">
+        <div class="column">
+            <p class="is-size-3 has-text-weight-bold has-text-accent">6</p>
+            <p class="has-text-weight-bold">College Partners</p>
+        </div>
+        <div class="column">
+            <p class="is-size-3 has-text-weight-bold has-text-accent">1200</p>
+            <p class="has-text-weight-bold">Students Impacted</p>
+        </div>
+        <div class="column">
+            <p class="is-size-3 has-text-weight-bold has-text-accent">150+</p>
+            <p class="has-text-weight-bold">Faculty Trained</p>
+        </div>
+    </div>
+
+    <!-- Mini Section 2 End -->
+
+    <!-- Team Section Start -->
+    <div class="section  has-text-centered is-vcentered">
+        <div class="container">
+            <h1 class="is-size-1">Join the Launchspace Movement</h1>
+            <p> Our team brings together a wealth of experience and ideas from some of the world’s most formidable
+                companies. We are constantly tinkering, questioning and challenging our environment to unlock
+                creativity. Reach out to us if you’d like to join the movement!</p>
+            <br>
+            <br>
+            <div class="columns is-centered">
+                <div class="column is-3">
+                    <img src="https://sgp1.digitaloceanspaces.com/launchspace/assets/images/team/ahbimanyu.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200512%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200512T075740Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=bea3d05213cc8259316c7210d0f193abbbcc0510c71953c3b8fc5d5ca5968639">
+                    <br>
+                    <h1 class="is-size-4 has-text-weight-bold"><span
+                            class="has-text-accent">Abhimanyu</span><br>Bhardwaj</h1>
+                    <P>Co-founder & CEO</P>
+                    <a href="https://www.linkedin.com/in/bhardwajabhimanyu/" target="_blank" rel="nofollow"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <div class="column is-3">
+                    <img src="https://sgp1.digitaloceanspaces.com/launchspace/assets/images/team/roshni.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200512%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200512T075740Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=afdeec7675b06370d91e2e4826bcbe531d11098ebc3336ac4219b043d3ba3fdb">
+                    <br>
+                    <h1 class="is-size-4 has-text-weight-bold"><span class="has-text-accent">Roshni</span><br> Santosh
+                    </h1>
+                    <P>Co-founder & COO</P>
+                    <a href="https://www.linkedin.com/in/roshnisantosh/" target="_blank" rel="nofollow"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <div class="column is-3">
+                    <img src="https://sgp1.digitaloceanspaces.com/launchspace/assets/images/team/sambodhi.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200512%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200512T075740Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=1baa7f7ad8a35b06d4213a2c326dd53472e9fd856be8880b3154fa5e13610733">
+                    <br>
+                    <h1 class="is-size-4 has-text-weight-bold"><span class="has-text-accent">Sambodhi</span><br> Sarkar
+                    </h1>
+                    <p>CFO</p>
+                    <a href="https://www.linkedin.com/in/sambodhisarkar/" target="_blank" rel="nofollow"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team Section End -->
+
+
+    <!-- Contact Section Start -->
+    <!-- <div id="contact-us" class="section has-background-grey-lighter">
+        <div class="container">
+            <div class="columns">
+                <div class="column  has-text-centered">
+                    <h1 class="is-size-1 ">Contact Us</h1>
+                </div>
+            </div>
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <form name="contact" method="POST" data-netlify="true">
+                        <div class="is-hidden" data-netlify-recaptcha="true"></div>
+                        <div class="field">
+                            <label class="label">Name</label>
+                            <div class="control">
+                                <input name="name" class="input" type="text" required />
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">Email</label>
+                            <div class="control">
+                                <input name="email" class="input" type="email" required />
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">I want to</label>
+                            <div class="control">
+                                <div class="select">
+                                    <select name="option">
+                                        <option selected>Get in touch</option>
+                                        <option>Run a FREE Design Thinking Training Session</option>
+                                        <option>Build a Nebulab Incubator on campus </option>
+                                        <option>Collaborate/Invest/Work with us </option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <label class="label">Message</label>
+                            <div class="control">
+                                <textarea name="message" class="input" type="text"></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="button is-red">Send Message</button>
+                    </form>
+                </div>
+
+                <div class="column is-vcentered  has-text-centered">
+                    <h1 class="is-size-4">Share Launchspace with a friend </h1>
+                    <ul class="is-horizontal">
+                        <li><a href="https://www.linkedin.com/company/launch-space/" target="_blank" rel="nofollow"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="https://www.facebook.com/LaunchspaceApp/" target="_blank" rel="nofollow"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.instagram.com/launch.space/" target="_blank" rel="nofollow"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://wa.me/919871578921?text=I%20am%20interested%20to%20know%20more%20about%20Launchspace.%20Here's%20a%20little%20info%20about%20me-" target="_blank" rel="nofollow"><i class="fab fa-whatsapp"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Contact Section End -->
+
+    <!-- Footer -->
+    <div class="footer">
+        <p class="is-size-6">Designed in India • &copy; 2020 • Launchspace Innovations Private Limited • Gurgaon - 122002</p>
+    </div>
+</body>
+

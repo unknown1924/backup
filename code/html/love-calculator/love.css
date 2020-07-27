@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #ffe6eb;
+  font-family: sans-serif;
+  color: #0b536e;
+  padding: 20px;
+}
+
+header {
+  border-bottom: 1px solid pink;
+  font-family: "Gloria Hallelujah", cursive;
+  text-align: center;
+  font-size: 0;
+  margin: 20px;
+  padding: 20px 20px 20px 20px;
+}
+header h1 {
+  display: inline-block;
+  font-size: 2rem;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+header h1 a {
+  color: inherit;
+  text-decoration: none;
+}
+header p {
+  display: inline-block;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+header p a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
+
+section#main {
+  padding: 30px;
+  font-size: 0;
+}
+section#main > * {
+  font-size: 1rem;
+}
+section#main div#main-content {
+  display: inline-block;
+  width: calc(50% - 20px);
+  margin-right: 20px;
+}
+section#main div#ad {
+  display: inline-block;
+  width: calc(50% - 20px);
+  margin-left: 20px;
+  vertical-align: top;
+  padding-top: calc(30px + 1.5rem + 6px);
+  text-align: right;
+  height: 24rem;
+}
+
+section#main form p {
+  width: 80%;
+  margin: 10% 10%;
+}
+section#main form p label {
+  display: block;
+  font-size: 1.5rem;
+  margin-bottom: 6px;
+}
+section#main form p input {
+  display: inline-block;
+  font-size: 2rem;
+  padding: 10px;
+  width: calc(100% - 25px);
+}
+section#main form img {
+  width: 80px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+section#main form button {
+  font-size: 1.5rem;
+  padding: 10px;
+  background-color: #ffaabd;
+  border: 1px solid #c78293;
+  border-radius: 5px 5px;
+  box-shadow: 1px 1px 3px #ffaabd;
+  color: inherit;
+  font-weight: bold;
+  display: block;
+  width: 100%;
+  margin: 40px 0 0 0;
+}
+
+.btn button {
+  font-size: 2rem;
+  padding: 10px;
+  background-color: #ffaabd;
+  border: 1px solid #c78293;
+  border-radius: 5px 5px;
+  box-shadow: 1px 1px 3px #ffaabd;
+  color: inherit;
+  font-weight: bold;
+  width: 130px;
+  display: inline;
+  margin: 0px 100px;
+}
+
+#check {
+  text-align: center;
+}
+
+section#main div#results {
+  margin: 30px 0 0 0;
+}
+section#main div#results p#for-names {
+  font-size: 1.15rem;
+  margin-bottom: 30px;
+}
+section#main div#results p#love-score {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+}
+section#main div#results p#love-score strong {
+  font-size: 1.5rem;
+}
+section#main div#results p#love-message {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+section#main div#go-back {
+  margin: 30px 0 0 0;
+}
+section#main div#go-back a {
+  color: inherit;
+}
+
+section#main p#announce {
+  background-image: url(/imgs/pink-hand.png);
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: 1.8rem;
+  font-size: 1.2rem;
+  padding-left: 2.5rem;
+  margin-top: 50px;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: right;
+}
+footer p {
+  margin-bottom: 10px;
+}
+footer a {
+  color: inherit;
+  text-decoration: none;
+}
+footer a.current {
+  font-weight: bold;
+}
+
+section#main.faq h2,
+section#main.about h2 {
+  margin: 30px 0 20px 0;
+  font-size: 1.1rem;
+}
+section#main.faq div#questions {
+  margin: 0 0 20px 20px;
+}
+section#main.faq div#questions p {
+  font-size: 1.2rem;
+  margin-bottom: 3px;
+}
+section#main.faq div#questions p a {
+  color: inherit;
+}
+section#main.faq div#answers {
+  margin: 50px 0 20px 20px;
+}
+section#main.faq div#answers dl dt {
+  font-size: 1.2rem;
+  margin: 30px 0 10px 0;
+}
+section#main.faq div#answers dl dt a {
+  text-decoration: none;
+  color: inherit;
+}
+section#main.faq div#answers dl dd {
+  font-size: 1.1rem;
+  margin-left: 1.6rem;
+  padding-bottom: 20px;
+  border-bottom: 1px dashed pink;
+}
+section#main.faq div#answers dl dd a {
+  color: inherit;
+}
+
+section#main.about p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+section#main.about p a {
+  color: inherit;
+}
+section#main.about p#xoxo {
+  clear: both;
+}
+section#main.about img#find-love-image {
+  float: right;
+  margin: 20px 0 20px 20px;
+  width: 100px;
+}
+section#main.about img#marriage-kisses-image {
+  float: left;
+  margin: 10px 20px 20px 0;
+  height: 100px;
+}
+
+@media (max-width: 700px) {
+  :root {
+    font-size: 0.9rem;
+  }
+  section#main div#main-content {
+    display: block;
+    width: auto;
+    margin-right: 0;
+  }
+  section#main div#ad {
+    display: block;
+    width: auto;
+    margin-top: 40px;
+    margin-left: 0;
+    text-align: left;
+    padding-top: 30px;
+    height: auto;
+  }
+}
+
+@media (max-width: 550px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+  section#main {
+    padding: 10px;
+  }
+}

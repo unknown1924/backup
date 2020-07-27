@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Love Calculator</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="./love.css" />
+    <script type="text/javascript">
+      function hide() {
+        document.getElementById("compatibility").innerHTML =
+          "Compatability is 80%";
+      }
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <h1><a href="/">Love Calculator</a></h1>
+    </header>
+
+    <section id="main">
+      <div id="main-content">
+        <form>
+          <p>
+            <label for="name1">Your Name?</label>
+
+            <input
+              id="name1"
+              name="name1"
+              type="text"
+              placeholder="Rachel McAdams"
+              value=""
+            />
+          </p>
+
+          <img src="http://lovecalculator.love/imgs/heart.png" alt="heart" />
+
+          <p>
+            <label for="name2">Crush Compatability</label>
+
+            <input
+              id="name2"
+              name="name2"
+              type="text"
+              placeholder="Jackie Chan"
+              value=""
+            />
+          </p>
+
+          <p id="compatibility"></p>
+
+          <!--<button>Calculate Love Compatability</button>-->
+        </form>
+        <div class="btn">
+          <button id="check" onclick="hide()">Check</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

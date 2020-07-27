@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Video</title>
+    <style type="text/css" media="screen">
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: sans-serif;
+      }
+      .light {
+        height: 100vh;
+        background: #fbf1c7;
+        color: #3c3836;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      light:hover {
+        cursor: pointer;
+      }
+      .dark {
+        background: #282828;
+        color: #ebdbb2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      body > div > h1 {
+        border: 1px solid black;
+        padding: 50px;
+        background: #a89984;
+        border-radius: 10px;
+        transition: ease-in-out 0.3s;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="light">
+      <h1 id="theme" class="btn">
+        This is gruvbox theme!
+      </h1>
+    </div>
+    <script charset="utf-8">
+      let a = document.getElementById("theme");
+      a.onclick = function () {
+        a.classList.toggle("dark");
+      };
+    </script>
+  </body>
+</html>

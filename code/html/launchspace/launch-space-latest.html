@@ -1,0 +1,505 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel='stylesheet' href="https://sgp1.digitaloceanspaces.com/launchspace/assets/styles/bootstrap.css?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200602%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200602T180419Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=d5c69a9e1b4c979932aa8253fd28aec88e6f038f8db195d31fdf898d7d9fb5ef">
+    <link rel='stylesheet' href="https://sgp1.digitaloceanspaces.com/launchspace/assets/styles/custom.css?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200602%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200602T180419Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=373f9d96454d918dc8dcb1db260dd284a680a9a8b67163d302fd337e67cddec2">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- favicon -->
+    
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://sgp1.digitaloceanspaces.com/launchspace/assets/images/favicons/favicon-32x32.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200602%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200602T180419Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=f55802806f2c8a9978de02a7a44392710ef96ec608646b2958a80dfcd41a8684">
+<link rel="icon" type="image/png" sizes="16x16" href="https://sgp1.digitaloceanspaces.com/launchspace/assets/images/favicons/favicon-16x16.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200602%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200602T180419Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=97967ec7c922119bd69a930af17717686553fab9d3fd7a9735ca3fe3d1336f55">
+
+    
+
+    <script src="https://kit.fontawesome.com/36bf67c002.js" crossorigin="anonymous"></script>
+    <title>Launchspace  </title>
+    <meta property="og:title" content="Launchspace" />
+    <meta property="og:description" content="The right idea at the right time can change the world. We empower individuals and organizations for innovation and entrepreneurship." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://launchspace.in/" />
+    <meta property="og:image" content="https://sgp1.digitaloceanspaces.com/launchspace/website/logo_insignia.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200602%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200602T180419Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=7f94945ecd8650c294da555be7f88ca85f3a329fa74dc82b37cbc34095942eca" />
+</head>
+
+<body>
+    <div id="menu" class="inactive px-4">
+        <div class="d-flex my-5 justify-content-between align-items-center">
+            <img height="40" width="40" src="https://sgp1.digitaloceanspaces.com/launchspace/website/logo_insignia.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200602%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200602T180419Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=7f94945ecd8650c294da555be7f88ca85f3a329fa74dc82b37cbc34095942eca" />
+            <button id="menu-close-btn" class="btn p-0"><i class="fa fa-close"></i></button>
+        </div>
+        <ul class="m-0 p-0">
+            <li class="p-0"><a href="/lri">LRI</a></li>
+        </ul>
+        
+            <hr class="mb-5">
+            <p class="mb-4">continue to your account</p>
+            <div class="d-flex justify-content-between">
+                <a href="/login" class="btn btn-success w-100 mr-3">login</a>
+                <a href="/sign-up" class="btn btn-dark w-100">sign up</a>
+            </div>
+        
+    </div>
+
+    <article>
+        <header>
+             
+<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top dissapear basic"
+  style="padding:16px 25px; box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 4px 7px 0 rgba(0, 0, 0, 0.1);">
+  <a class="navbar-brand" href="/">
+    <img style="margin-left: 76.2px" src="https://sgp1.digitaloceanspaces.com/launchspace/website/logo.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200602%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200602T180419Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=41945a99e5548cb3619975f670a2a38d5440520f96bb049da33118e455ad1176" width="201" height="47"
+      class="d-inline-block align-top" alt="Launch Space">
+  </a>
+  
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto flex-column-reverse flex-md-row align-items-center">
+      <li class="nav-item mr-5">
+        <a class="nav-link font-weight-bold text-secondary h-100" href="/lri/">LRI</a>
+      </li>
+      
+    <a href="/login" class="btn btn-outline-success my-2 my-sm-0 font_16">Login</a>
+    <a href="/sign-up" class="btn btn-dark my-2 my-sm-0 font_16 ml-4" style="padding: 10px 34px;border-width: 2px;">Sign up</a>
+    
+  </ul>
+  </div>
+</nav> 
+        </header>
+        <main class="container-fluid p-0">
+            
+
+<img id="logo-mobile" src="https://sgp1.digitaloceanspaces.com/launchspace/website/logo_insignia.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200602%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200602T180419Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=7f94945ecd8650c294da555be7f88ca85f3a329fa74dc82b37cbc34095942eca" />
+<button id="menu-btn" class="btn p-0"><i class="fa fa-bars"></i></button>
+
+
+<!-- Hero -->
+<section class="jumbotron cards basic mt-md-5 my-0 pt-2 pb-0 pr-0 align-items-top" style="overflow-x: hidden;">
+    <div class="margin_l96">
+        <div class="row justify-content-between">
+            <div class="col-md-5 order-md-2">
+                <img id="hero-image" class="img-fluid" src="https://sgp1.digitaloceanspaces.com/launchspace/website/hero.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200602%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200602T180419Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=d55d83ddfbe2598923fffa75b76c4dfe5bc5a0deebbd0ad240b2dc43be40a3e6" alt="My image" style="max-height: 490px;">
+            </div>
+            <div id="hero-content" class="col-lg-5 order-md-1" class="margin">
+                <div class="txt_head basic">
+                    <h1 class="display-4 font-weight-bolder txt-size-small-30 mb-sm-3"><span class="text-primary">Innovation<br></span>
+                    Happens Here</h1>
+                </div>
+                <p class="txt txt-size-small-13 mt-4">Entrepreneurs and innovators are not born lucky.
+                    They make their own luck. At Launchspace,
+                    our vision is to transform learners into entrepreneurs and organizations into innovation hubs. We
+                    provide learning and facilitate valuable experiences so that anyone, anywhere,
+                    has the tools to build the next big thing.</p>
+                <div class="margin" style="margin-top: 10px;">
+                    <img class="img-fluid" style="height: 36px; width: 14px;" src="https://sgp1.digitaloceanspaces.com/launchspace/website/scroll.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200602%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200602T180419Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=47ae4fb8b173d51c87876f9a0690e1893c07e15f909bc66431e091262166eabf"
+                        alt="My image">
+                    <a class=" text-muted press basic" href="#" role="button"> &nbsp;&nbsp;&nbsp;Explore our space</a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+<!-- what we do -->
+<section class="cards basic p-xs-0 pl-0" style="padding-left: 0px !important;">
+    <div class="row margin margin_l96 justify-content-between ml-0">
+        <div class="col-xs-12 col-lg-4 order-lg-2 order-sm-2 pb-sm-5 p-3 mb-4">
+            <h5 class="display-4 text-muted font_20 txt-size-small-13 font-weight-bold">-What we do</h5>
+            <h3 class="text_head font_40 txt-size-small-22" style="padding-left: 10px;">
+                Launchspace educates<br>
+                the innovators of <br>
+                tomorrow</h3>
+        </div>
+        <div class="col-lg-7 col-xs-12 rm-radius mx-xs-5 order-sm-1 py-4" style="background-color: #f2f2f2; border-top-right-radius: 20px; max-height: 207px;">
+            <div class="row justify-content-around align-items-center align-middle text-center"
+                style=" height: 100%;">
+                <div class="col-3 p-0 px-md-5 px-xs-2 relative">
+                    <div style="top: -76px;" class="number img-txt-size-small-75">01</div>
+                    <div class="number-content">
+                        <img class="img-fluid img-size-small-1" 
+                        src="https://sgp1.digitaloceanspaces.com/launchspace/website/application.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200602%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200602T180419Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=5c23172624df0cde202c71d0f107d86e2e05f59a0cfd9e91c24df79b8c6d79c8" width="89.5px" height="75px" alt="My image">
+                        <h1 class="text-center font_20 txt-size-small-13">Application</h1>
+                    </div>
+                </div>
+                <div class="col-3 p-0 px-md-5 px-xs-2 relative">
+                    <div class="number img-txt-size-small-75">02</div>
+                    <div class="number-content">
+                        <img class="img-fluid img-size-small-2"
+                            src="https://sgp1.digitaloceanspaces.com/launchspace/website/workshops.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200602%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200602T180419Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=c8168c36dd6f371c049381833aedbac92f667b091df34a7fa18f987288432e4c" width="113.5px" height="66.5px" alt="My image">
+                        <h1 class="text-center font_20 txt-size-small-13">Workshops</h1>
+                    </div>
+                </div>
+                <div class="col-3 p-0 px-md-5 px-xs-2 relative">
+                    <div class="number img-txt-size-small-75">03</div>
+                    <div class="number-content">
+                        <img class="img-fluid img-size-small-3"
+                            src="https://sgp1.digitaloceanspaces.com/launchspace/website/nebulabs.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200602%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200602T180419Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=692ccbe08c24c510f2bf2e66575d533b08bde181c8c44dc66fc1955f12bfc137" width="128.5px" height="64.5px" alt="My image">
+                        <h1 class="text-center font_20 txt-size-small-13">Nebulabs</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+<!-- empower innovation of tomorrow -->
+<section id="dots-01" class="jumbotron cards basic relative pt-4 align-middle mb-lg-5 mt-lg-5 p-lg-5" style=" margin: 7rem 0 !important;">
+    
+        <div class="row margin_l96 justify-content-between image mt-0 pt-0 align-middle">
+            <div class="col-lg-3 pt-lg-5 mb-5">
+                <h3 class="basic align-center font_49 txt-size-small-26">We empower<br>
+                    <span class="font-weight-bold text-primary">the innovation<br></span>
+                    of tomorrow</h3>
+            </div>
+            <div class="col-lg-3 col-md-12 px-1 text-center text-secondary toggle box-width-small">
+                <img class="img-fluid img-size-small-4"
+                    src="https://sgp1.digitaloceanspaces.com/launchspace/website/student.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200602%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200602T180419Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=a7aab82aa7af1ae5a2c368fc3fb59fe1ac7ed6e6d4bd5b8d0b25c29793687391" width="126px" height="126px" alt="My image">
+                <br>
+                <h4 class="text_small_head txt-size-small-16 my-3" >Students</h4>
+                <p class="text_small txt-size-small-13">
+                    We help you become a hands-on<br>
+                    entrepreneur and innovator.
+                </p>
+            </div>
+            <div class="col-lg-3 col-md-12 px-1 text-center text-secondary toggle">
+                <img class="img-fluid img-size-small-5"
+                    src="https://sgp1.digitaloceanspaces.com/launchspace/website/college.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200602%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200602T180419Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=b7bc205269c37fea1e72d5af06b51fe00d014d84dae678028b6d4a7fe5fc7eea" width="126px" height="126px" alt="My image">
+                <br>
+                <h4 class="text_small_head txt-size-small-16 my-3" >Colleges</h4>
+                <p class="text_small txt-size-small-13">
+                    We help your institution become a<br>
+                    hotspot of initiative & innovation.
+                </p>
+            </div>
+            <div class="col-lg-3 col-md-12 px-1 text-center text-secondary toggle">
+                <img class="img-fluid img-size-small-6"
+                    src="https://sgp1.digitaloceanspaces.com/launchspace/website/corporates.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200602%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200602T180419Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=7016c4fce42ae96bdc165ff87edcce00d91002eb082758c14c264d6611c7b128" width="126px" height="126px" alt="My image">
+                <br>
+                <h4 class="text_small_head txt-size-small-16 my-3" >Corporates</h4>
+                <p class="text_small txt-size-small-13">
+                    We facilitate enterprise and<br>
+                    innovation at your organization.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+<!-- red card -->
+<img class="d-block d-sm-none m-auto" src="https://sgp1.digitaloceanspaces.com/launchspace/website/phonemock.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200602%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200602T180419Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=7598f769743f7596e676226706529fbc494f9e7b467347d84a72b0d985bd011e" width="186" height="191" />
+<section class="jumbotron basic mb-xs-5 max-height p-4 p-lg-5 p-md-5"
+    style="margin: 0 16px; background-color:#fe3535 ;padding: 78px; border-radius: 27px; background-image: url(https://sgp1.digitaloceanspaces.com/launchspace/website/bgpatternred.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200602%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200602T180419Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=54ec889c900fd073df9eb877100ede2958060131400ec08d56d67a61c66f24dc);">
+    <div class="row justify-content-between">
+        <div class="col-lg-5 col-xs-12 order-md-12 mb-5">
+            <img class="img-fluid m-0 p-0 relative d-none d-sm-block"
+                style="margin-top: -124px !important;"
+                src="https://sgp1.digitaloceanspaces.com/launchspace/website/phonemock.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200602%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200602T180419Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=7598f769743f7596e676226706529fbc494f9e7b467347d84a72b0d985bd011e" width="551px" height="504px" alt="My image">
+        </div>
+        <div class="col-lg-7 col-xs-12 margin order-md-1">
+            <h1 class="display-4 txt-size-small-26" style=" margin-bottom: 20px; font-size: 49px; color: #ffa8a8; font-weight:lighter;">
+                The
+                <span class="font-weight-bold" style="color: white;">Digital</span>
+                Platform</h1>
+            <p class="lead font_18 txt-size-small-13" style="color:#ffa8a8;">The launchspace platform is the go-to
+                destination for learning to become an enterpreneur</p>
+            <ul class="font_18 space txt-size-small-13 ln-ht-small roc" style="color: white;">
+                <li>
+                    <a>Evaluate and improve your enterpreneurial mindset</a>
+                </li>
+                <li>
+                    <a>Build problem-solving abilities through challenges</a>
+                </li>
+                <li>
+                    <a>Learning innovation by doing</a>
+                </li>
+            </ul>
+            <a class="btn btn-outline-primary btn-lg basic margin font-weight-bold btn_new button-small text-center txt-size-small-13" href="#" role="button">Sign
+                Up Now &nbsp;<img class="image-fluid inc" src="https://sgp1.digitaloceanspaces.com/launchspace/website/arrow.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200602%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200602T180419Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=dea2794254259e57fd89ab7ef84e6447fb96d6608eafdfc94622eeefa995218b" alt="-->"></img></a>
+        </div>
+        
+    </div>
+</section>
+
+
+<!-- What we offer -->
+<!-- Workshop -->
+<section class="jumbotron basic cards bg1-small m-sm-0 pb-sm-0 pb-0 margin_l96 mb-0 mb-md-3" style="position: relative;">
+    <div class="row margin_l96 justify-content-between mb-sm-0 mb-lg-5 mb-0 mb-md-3">
+        <div class="col-lg-5 margin">
+            <img class="img-fluid" style="object-fit: contain;" src="https://sgp1.digitaloceanspaces.com/launchspace/website/workshopsbig.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200602%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200602T180419Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=dcc38bf665212c45ae81c11340ff8f647089b8e4cfb69f2a6f37f435b8978102"
+                alt="My image" width="816px" height="471px">
+        </div>
+        <div class="col-lg-6">
+            <h3 class="text-primary font-weight-bold text-secondary-sm font_20 txt-size-small-30" >What we offer</h3>
+            <h1 class="text-secondary font-weight-bold font_45 txt-size-small-22">Workshops</h1>
+            <p class="lead text-muted font_18 txt-size-small-13">Workshops formulated specifically to address your
+                organization's vision for the future. </p>
+            <ul class="text-muted margin font_18 space tick txt-size-small-13 ln-ht-small" style="margin-top: 52px;">
+                <li>
+                    <a>Supply members with tools for innovation</a>
+                </li>
+                <li>
+                    <a>Promote a culture of intrapreneurship among members</a>
+                </li>
+                <li>
+                    <a>Prepare organizations to continually evolve for a dynamic fututre</a>
+                </li>
+            </ul>
+            <a class="btn btn-primary btn-lg btn_new font-weight-bold button-small" href="#" role="button">
+                <img class="img-fluid inc" src="https://sgp1.digitaloceanspaces.com/launchspace/website/calendar.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200602%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200602T180419Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=27bf84afc5bf30285abdab9509172b039d03aa5b02d22f67986ebd0c9d685e27" alt="My image">
+                &nbsp;Schedule a Workshop</a>
+        </div>
+    </div>
+    <div id="dots-03" class="bg3">
+        <img src="https://sgp1.digitaloceanspaces.com/launchspace/website/bgpattern3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200602%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200602T180419Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=6cc0c092015ffd08f414cb5eb58cb06aa26c628957f94450d70e7a1d373285ab" height="378px" width="150px" >
+    </div>
+</section>
+
+<!-- what we offer  -->
+<!-- on campus incubator -->
+<section class="jumbotron basic cards bg1-small relative">
+    <div id="dots-02" class="empower-dots-bg">
+        <img src="https://sgp1.digitaloceanspaces.com/launchspace/website/bgpattern2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200602%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200602T180419Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=37f7b4b92b244559d2904287beb89ee93c928b44cbd73b594860b937a086a98c" height="311px" width="115px" >
+    </div>
+    
+    <div class="m-xs-0 row margin_l96 justify-content-between ">
+        <div class="col-lg-5 order-md-12">
+            <img class="img-fluid" src="https://sgp1.digitaloceanspaces.com/launchspace/website/incubator.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200602%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200602T180419Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=c16dcffbfa5532e2f947458d6f2c9c6da546f2202acbbe84ee72922e835f5964" alt="My image">
+        </div>
+        <div class="col-lg-6 margin order-md-1">
+            <h5 class="display-4 text-primary font-weight-bold d-none d-lg-block font_20">What we offer</h5>
+            <h1 class="display-4 text-secondary font-weight-bold txt-size-small-22 font_45">On-Campus Incubator</h1>
+            <p class="lead text-muted font_18 txt-size-small-13">Nebulabs are custom built incubator workspaces to accelerate innovation.
+            </p>
+            <ul class="font_18 text-muted space tick txt-size-small-13 ln-ht-small" style="margin-top: 52px;">
+                <li>
+                    <a>Spaces that embody & equip members of an organization for innovation</a>
+                </li>
+                <li>
+                    <a>Facilitating optimal collaboration for innovation</a>
+                </li>
+                <li>
+                    <a>Creating innovation cultures for organizations</a>
+                </li>
+            </ul>
+            <a class="btn btn-primary btn-lg margin btn_new font-weight-bold button-small" href="#" role="button">
+                <img class="img-fluid inc" style="object-fit: contain;" src="https://sgp1.digitaloceanspaces.com/launchspace/website/mail.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200602%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200602T180419Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=95c7dbbb18394ab2cd970e47da03fb06bab80af719428d26deee49b0c4d9d6fe"
+                    alt="My image">
+                &nbsp;Get in Touch</a>
+        </div>
+    </div>
+</section>
+<section>
+<!-- contact form -->
+
+<section id="contact" class="jumbotron cards basic elem bg-white">
+    <div class="row margin_l96 margin px-xs-0 mx-xs-0 elem"
+        style="padding:80px;background-color:#f2f2f2; border-radius: 27px; background-position: right ;margin-right: 96px;background-size: contain; background-repeat: no-repeat ;background-image: url(https://sgp1.digitaloceanspaces.com/launchspace/website/bgpattern1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200602%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200602T180419Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=81f2a6f387942d31f7fabef783680f57e741ba2bcc5526dcae322a3eb684311c);">
+        <div class="col-lg-6 margin just9fy-content-center">
+            <h1 style="font-size: 50px;" class="d-none d-md-block font-weight-bold margins px-xs-0 text-wrap">
+                Let's<br>Collaborate</h1>
+            <h3 class="d-block d-md-none font-weight-bold margins px-xs-0 text-wrap">Let's Collaborate</h3>
+            <img class="img-fluid" src="https://sgp1.digitaloceanspaces.com/launchspace/website/collaborate.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200602%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200602T180419Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=7849db14b16087564cc9c520f95d392603f0c9db4a292b01065f2cb0b1451eb0" style="max-height: 278px;"
+                alt="My image">
+        </div>
+        <div class="col-lg-6">
+            <div id="form-loading-container" class="d-none">
+                <img id="progress-indicator" width="180" class="m-center"
+                    src="https://sgp1.digitaloceanspaces.com/launchspace/assets/images/loading.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200602%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200602T180419Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=3bcc016802cde99930000a67e84c0603ad3ca199eb8b3dff6e6e4c877935f5fb" />
+            </div>
+            <div id="form-success-container" class="d-none">
+                <p class="text-center">Thank you, Your message has been     sent, we will get back to you shortly</p>
+            </div>
+            <div id="form-failure-container" class="d-none">
+                <p class="text-center">Oh No!, Your message has not been sent, please try again</p>
+            </div>
+            <div id="form-container">
+                <p>Now that we've got your attention, shoot us an email!</p>
+                <form id="contact-form" method="POST" class="form-group space" style="margin: 0px;">
+                    <div class="row justify-content-between">
+                        <div class="col-md-5" style=" padding : 0px; margin : 0px">
+                            <input type="text" class="form-control gap" name="name" required placeholder="Your Name">
+                        </div>
+                        <div class="col-md-6" style=" padding: 0px; margin-left: 5px;">
+                            <input type="email" class="form-control gap" name="email" required placeholder="Your Email">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <select class="custom-select gap" id="form-select" name="topic">
+                            <option selected>Get in touch</option>
+                            <option>Run a FREE Design Thinking Training Session</option>
+                            <option>Build a Nebulab Incubator on campus </option>
+                            <option>Collaborate/Invest/Work with us </option>
+                        </select>
+                    </div>
+                    <div class="row">
+                        <input type="tel" class="form-control gap" name="phone_number" minlength="10" maxlength="13"
+                            required placeholder="Phone Number" pattern="+[0-9]{12}" title="A 10 digit phone number with or without country code">
+                    </div>
+                    <div class="row margin">
+                        <input type="text" class="form-control gap" name="message" placeholder="How can we help you ?">
+                    </div>
+                    <button
+                        class=" btn btn-success btn-lg font_18 font-weight-bold float-right align-right btn_new px-5 button-small"
+                        style="margin-top: 30px ; border-radius: 17px;">Let's talk</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+</section> 
+    
+</section>
+
+        </main>
+        <footer>
+             
+
+
+<!-- Footer -->
+<div class="footer basic margin_l96 mb-0 pb-0 sm bg-fr-small mt-sm-0 pt-sm-0 p-5">
+    <hr>
+    <div class="row justify-content-between margin txt-small-white">
+        <div class="col-md-3 col-xs-12 txt-small-white mb-xs-4">
+            <h1 class="text-secondary font-weight-bold mb-4 text-left font_22 line-ht-2 txt-small-white">About us</h1>
+            <p class="text-muted font_18 text-left line-ht-2">The right idea at the right time can
+                change
+                the world. We empower individuals and organizations for innovation and entrepreneurship.</p>
+            <div class="align-left justify-content-left d-none d-md-block">
+                <a rel='no-refer' target="blank" href="https://www.facebook.com/LaunchspaceApp/"><img class="icons"
+                        src="https://sgp1.digitaloceanspaces.com/launchspace/website/fb.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200602%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200602T180419Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=20ca83216519e30dadc6797160ee40480e87e5a9b181d2d5a605e1b390ddc31f" alt="FB"></a>
+                <a rel='no-refer' target="blank" href="https://twitter.com/launchspace_in"><img class="pd icons"
+                        src="https://sgp1.digitaloceanspaces.com/launchspace/website/tw.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200602%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200602T180419Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=66d3c7afff96819f83eae7939ba468687795a946f3ea3fcd16dc845acfde98e4" alt="TW"></a>
+                <a rel='no-refer' target="blank" href="https://www.instagram.com/launch.space/"><img class="pd icons"
+                        src="https://sgp1.digitaloceanspaces.com/launchspace/website/in.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200602%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200602T180419Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=8f702afa93c828ed8bcba890c77ad335758d009603aeab95d28e0aaa7dc5e179" alt="IN"></a>
+                <a rel='no-refer' target="blank" href="https://www.linkedin.com/company/launch-space/"><img class="pd icons"
+                        src="https://sgp1.digitaloceanspaces.com/launchspace/website/li.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200602%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200602T180419Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=0a714b2f52ae99904743158beda4e14691bb1d8951df9d6ca351f7c2b46f5f3b"" alt=" LI"></a>
+            </div>
+        </div>
+        <div class="col-md-2 col-xs-12">
+            <h1 class="text-secondary font-weight-bold mb-4 line-ht-2 fancy txt-small-white font_22 text-left">Support
+            </h1>
+            <div class="row justify-content-between">
+                <div class="col-lg-12 col-sm-12 col-5">
+                    <p class="text-muted font_16">Privacy Policy</p>
+                    <p class="text-muted font_16">Terms of use</p>
+                </div>
+                <div class="col-lg-12 col-sm-12 col-5">
+                    <p class="text-muted font_16">Careers</p>
+                    <p class="text-muted font_16">Collaborate</p>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="col-md-3 col-xs-12" style="text-align:left;">
+            <h1 class="text-secondary font-weight-bold mb-4 text-left font_22 m-0 p-0 txt-small-white line-ht-2">Quick
+                links </h1>
+            <div class="row justify-content-between">
+                <div class="col-6">
+                    <p class="text-muted font_16">About</p>
+                    <p class="text-muted font_16">Meet the team</p>
+                    <p class="text-muted font_16">Blog</p>
+                    <p class="text-muted font_16">For students</p>
+                    <p class="text-muted">For Institutions</p>
+                </div>
+                <div class="col-6" style="">
+                    <p class="text-muted font_16">For corporates</p>
+                    <p class="text-muted font_16">Launchspace&nbsp;app</p>
+                    <p class="text-muted font_16">Workshops</p>
+                    <p class="text-muted font_16">Nebulabs</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 col-xs-12">
+            <h1 class="text-secondary font-weight-bold mb-4 pb-3 font_22 text-left txt-small-white">Contact</h1>
+            <div class="row align-top">
+                <div class="col-sm-6 col-12 col-lg-12">
+                <h2 class="text-primary font-weight-bold font_18 mb-2"> 
+                    <!-- <img class="inc"
+                        src="https://sgp1.digitaloceanspaces.com/launchspace/website/phone.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200602%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200602T180419Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=7d45b9c3c7b38c62adee524cf96e81935a556e59201f801f88baa82e4d5dc089" alt="PN">&nbsp;Phone</h2> -->
+                    <!-- <h3 class="font_16 mb-4 line-ht-2">
+                        +91 9633456790<br>
+                        +91 9633412233
+                    </h3> -->
+                </div>
+                <div class="col-sm-6 col-12 col-lg-12">
+                    <h2 class="text-primary font_18 font-weight-bold mb-2"><img class="inc filter"
+                            src="https://sgp1.digitaloceanspaces.com/launchspace/website/mail.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200602%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200602T180419Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=95c7dbbb18394ab2cd970e47da03fb06bab80af719428d26deee49b0c4d9d6fe" alt="ML">&nbsp;Mail id</h2>
+                    <a class="font_16">
+                        hello@launchspace.in
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row text-center justify-content-center m-0 align-middle text-secondary font-weight-bold basic" style="background-color: #eeeeee;">
+    <p class="font_16 m-0 p-2">&copy; 2020 Launchspace. All rights reserved</p>
+</div>
+<!-- Footer --> 
+        </footer>
+    </article>
+
+    <script src="https://sgp1.digitaloceanspaces.com/launchspace/assets/scripts/jquery-3.5.1.min.js?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200602%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200602T180419Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=3c86d603d443546b227bbfe2b35bf289b7cb98c2f16f406589309d56c7d35543"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+        <script src="https://www.google.com/recaptcha/api.js?render=6LfTBvkUAAAAAInRgbp61u8m5nYPlSYIVE25BfGS"></script>
+        <script>
+        grecaptcha.ready(function() {
+            grecaptcha.execute('6LfTBvkUAAAAAInRgbp61u8m5nYPlSYIVE25BfGS', {action: 'homepage'})
+        });
+        </script>
+
+    <script src="https://sgp1.digitaloceanspaces.com/launchspace/assets/scripts/contact.js?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=J2KNYCVMA7DS2DB23GHA%2F20200602%2Fsgp1%2Fs3%2Faws4_request&amp;X-Amz-Date=20200602T180419Z&amp;X-Amz-Expires=3600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=88d436ea43dfd00a4b146dbb7606feacd468164dc8792710a16200df6b5c6fa7"></script>
+    
+    
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAG-3ypNnT5THvHJyAOMTNzfuDx3hY6CyQ",
+    authDomain: "launchspace-d9b6b.firebaseapp.com",
+    databaseURL: "https://launchspace-d9b6b.firebaseio.com",
+    projectId: "launchspace-d9b6b",
+    storageBucket: "launchspace-d9b6b.appspot.com",
+    messagingSenderId: "960673880424",
+    appId: "1:960673880424:web:c306f304244df611f8dedd",
+    measurementId: "G-931M2TWKM6"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  var analytics = firebase.analytics();
+</script>
+    <script>
+        $('#menu-btn').on('click', () => {
+            $('body').toggleClass('menu-open')
+            $('#menu').toggleClass('inactive')
+        })
+        $('#menu-close-btn').on('click', () => {
+            $('body').toggleClass('menu-open')
+            $('#menu').toggleClass('inactive')
+        })
+    </script>
+</body>
+
+</html>
